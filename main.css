@@ -1,0 +1,41 @@
+body {
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    max-width: 300px; 
+    font-weight: bold;
+    background: linear-gradient( #00D7B7, #00A3FF);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+}
+
+.form-control {
+    border: none;
+    border-bottom: 2px solid #00D7B7;
+    border-radius: 0;
+    outline: none;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+.form-control:focus {
+    border-bottom: 3px solid #00D7B7;
+    box-shadow: none;
+}
+
+button{
+    max-width: 200px;
+}
